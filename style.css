@@ -22,13 +22,13 @@ body {
 nav{
     position: fixed;
     background-color: azure;
-    width: 96vw;
+    width: 2800px;
     margin: 10px;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 150px;
 }
 
 .links ul{
