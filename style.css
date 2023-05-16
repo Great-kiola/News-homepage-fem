@@ -22,13 +22,13 @@ body {
 nav{
     position: fixed;
     background-color: azure;
-    width: 2800px;
+    width: 100vh;
     margin: 10px;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px;
 }
 
 .links ul{
@@ -50,6 +50,18 @@ ul{
 .links ul li:hover a{
     color: var(--Softred);
     font-weight: 700;
+}
+
+.firstContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box{
+    margin: 10px 10px;
+    height: 500px;
+    width: 200px;
+    background-color: var(--Verydarkblue);
 }
 
 
