@@ -55,39 +55,39 @@ ul{
 
 .firstContainer{
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid var(--Softred);
+    grid-template-columns: repeat(2, 1fr);
 }
 .box{
     height: 150px;
-    width: 350px;
-    background-color: var(--Verydarkblue);
+    min-width: 200px;
+}
+
+.bodyContainer{
+    display: flex;
 }
 
 .box1{
     background-color: aqua;
-    grid-column: span 2;
+    grid-column: span 3;
 }
 
 .box2{
     background-color: maroon;
+    grid-row: span 2;
 }
 .box3{
     background-color: purple;
 }
 .box4{
-    background-color: wheat;
-    grid-column: span 2;
-}
-.box5{
-    background-color: darkblue;
-}
-.box6{
-    background-color: teal;
-    
+    background-color: red;
+
 }
 
+.secondContainer{
+    background-color: rebeccapurple;
+    width: 250px;
+    min-height: 100%;
+}
 
 
 :root{
