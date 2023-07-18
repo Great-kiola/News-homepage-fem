@@ -58,17 +58,21 @@ ul{
     grid-template-columns: repeat(2, 1fr);
 }
 .box{
-    height: 150px;
-    min-width: 200px;
+
+    height: 450px;
+    width: 600px;
 }
 
 .bodyContainer{
-    display: flex;
+    display: grid;
+    /* display: flex; */
 }
 
 .box1{
-    background-color: aqua;
     grid-column: span 3;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: aqua;
 }
 
 .box2{
@@ -85,7 +89,7 @@ ul{
 
 .secondContainer{
     background-color: rebeccapurple;
-    width: 250px;
+    width: 550px;
     min-height: 100%;
 }
 
